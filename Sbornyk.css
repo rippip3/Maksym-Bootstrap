@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+ padding: 0;
+}
+
+nav{
+  background-color: black;
+  padding: 0;
+}
+
+.booklv{
+  font-family: 'Druk',Arial,sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #da9e00;
+}
+
+.d1{
+  margin-right: 20px;
+}
+
+.d01{
+  width : 38%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 32%;
+}
+
+.img1{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.p2{
+  font-size: 24px;
+  font-family: 'TTFirsNeue',Arial,sans-serif;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  margin-top: 110px;
+}
+
+header{
+ height: 500px;
+}
+
+footer{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 768px){
+  header{
+    margin-bottom: 550px;
+  }
+}
+
+.cont{
+  font-family: 'Druk',Arial,sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 25px;
+}
+
+.icon{
+  margin-right: 30px;
+}
